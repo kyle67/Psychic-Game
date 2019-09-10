@@ -1,10 +1,9 @@
 <script>
+document.addEventListener('keydown', logKey);
 
-    document.write()
+function logKey(e) {
+  log.textContent += ` ${e.code}`;
 
-    document.write()
-
-
-    document.write()
-
+  document.querySelector(“#wins”).innerHTML = wins;
+}
         </script>
